@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>Contact</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="projects.html">Projects</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Naam: <input type="text" name="name" /></label>
+            </p>
+            <p>
+                <label>Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label>Telefoonnummer: <input type="number" name="number" /></label>
+            </p>
+            <p>
+                <label>Leeftijd: <input type="number" name="age" /></label>
+            </p>
+            <p>
+                <label>Geboortedatum: <input type="date" name="date" /></label>
+            </p>
+            <p>
+                <label>Gender:
+                    <p>
+                        <label><input type="radio" name="button" /> man</label>
+                    </p>
+                    <p>
+                        <label><input type="radio" name="button" /> vrouw</label>
+                    </p>
+                    <p>
+                        <label><input type="radio" name="button" /> overig</label>
+                    </p>
+                </label>
+            </p>
+            <p>
+                <label>Favoriete cuisine: <select name="role[]" multiple>
+                        <option value="frans">frans</option>
+                        <option value="italiaans">italiaans</option>
+                        <option value="spaans">spaans</option>
+                        <option value="arabisch">arabisch</option>
+                    </select></label>
+            <p>
+                <label>Favoriete kleur van short: <input type="color" name="color" /></label>
+            </p>
+            <p>
+                <label>Biografie: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+                <label>Upload je laatste recept: <input type="file" name="file" /></label>
+            </p>
+            <p>
+                <label>Url naar je recpeten website: <input type="url" name="url" /></label>
+            </p>
+            <p>
+                <button type="reset">Reset</button>
+            </p>
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        All Rights Reserved
+    </footer>
+
+</body>
+
+
+</html>
