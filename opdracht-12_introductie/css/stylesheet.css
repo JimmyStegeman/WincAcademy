@@ -1,0 +1,83 @@
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    display: flex;
+    
+}
+
+.name{
+    font-weight: bold;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.subtitle {
+    color: darkgrey;
+    padding-top: 0px;
+    margin-top:5px;
+}
+
+.request {
+    color: grey;
+}
+
+.introduction {
+    display: flex;
+    
+}
+
+.profile-picture {
+    justify-content: flex-end;
+}
+
+
+
+.message-box {
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+.buttons li {
+    display: flex;
+    margin: 0px;
+}
+
+.buttons ul {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.approve {
+    border: 2px solid lightgreen;
+    border-radius: 25px;
+    background-color: white;
+    color: lightgreen;
+    padding: 20px 80px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.decline {
+    border: 2px solid red;
+    border-radius: 25px;
+    background-color: white;
+    color: red;
+    padding: 20px 80px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
