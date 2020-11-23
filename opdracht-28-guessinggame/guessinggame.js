@@ -12,12 +12,17 @@ let guessingGame = prompt("Voer een nummer in van 0 tot 25 om te beginnen met ra
 // random number 
 let awnser = Math.floor(Math.random() * 25 + 1);
 
-if (guessingGame == awnser) {
-    console.log("GEFELICITEERD! Je hebt het getal geraden!");
-    console.log("Dag " + person + ". Tot de volgende keer!");
-} else if (guessingGame > awnser) {
-    console.log("Oops! Probeer eens een kleiner getal.");
-} else {
-    console.log("Oops! Probeer eens een groter getal. ");
+while (guessingGame !== awnser) {
+    let guessingGame = prompt("Voer een nummer in...")
+    if (guessingGame == awnser) {
+        console.log("GEFELICITEERD! Je hebt het getal geraden!");
+        console.log("Dag " + person + ". Tot de volgende keer!");
+    } else if (guessingGame > awnser) {
+        console.log("Oops! Probeer eens een kleiner getal.");
+
+    } else {
+        console.log("Oops! Probeer eens een groter getal. ");
+    }
+
 }
 
