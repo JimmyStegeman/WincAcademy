@@ -9,5 +9,11 @@ const array = [
 
 for (let person of array) {
     //hier moeten console.logs komen
-    console.log("Alles over de persoon", [name]);
+    console.log("Dit is de gehele persoon:", person);
+    console.log("en hier hebben we: ", person.name);
+    console.log("geboortedatum:", 2020 - person.age);
+    console.log("Begroep:", person.name + " is een " + person.profession);
+    if (person.age > 50) {
+        console.log("Persoon is ouder dan 50", person.name)
+    }
 }
